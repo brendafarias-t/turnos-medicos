@@ -1,0 +1,102 @@
+[
+  {
+    "especialidadId": 1,
+    "nombreEspecialidad": "Cardiología",
+    "activa": true
+  },
+  {
+    "especialidadId": 2,
+    "nombreEspecialidad": "Pediatría",
+    "activa": true
+  },
+  {
+    "especialidadId": 3,
+    "nombreEspecialidad": "Dermatología",
+    "activa": true
+  },
+  {
+    "especialidadId": 4,
+    "nombreEspecialidad": "Traumatología",
+    "activa": false
+  },
+  {
+    "especialidadId": 5,
+    "nombreEspecialidad": "Ginecología y Obstetricia",
+    "activa": true
+  },
+  {
+    "especialidadId": 6,
+    "nombreEspecialidad": "Neurología",
+    "activa": true
+  },
+  {
+    "especialidadId": 7,
+    "nombreEspecialidad": "Oftalmología",
+    "activa": false
+  },
+  {
+    "especialidadId": 8,
+    "nombreEspecialidad": "Clínica Médica",
+    "activa": true
+  },
+  {
+    "especialidadId": 9,
+    "nombreEspecialidad": "Psiquiatría",
+    "activa": true
+  },
+  {
+    "especialidadId": 10,
+    "nombreEspecialidad": "Endocrinología",
+    "activa": true
+  },
+  {
+    "especialidadId": 11,
+    "nombreEspecialidad": "Otorrinolaringología",
+    "activa": true
+  },
+  {
+    "especialidadId": 12,
+    "nombreEspecialidad": "Urología",
+    "activa": true
+  },
+  {
+    "especialidadId": 13,
+    "nombreEspecialidad": "Gastroenterología",
+    "activa": false
+  },
+  {
+    "especialidadId": 14,
+    "nombreEspecialidad": "Neumonología",
+    "activa": true
+  },
+  {
+    "especialidadId": 15,
+    "nombreEspecialidad": "Oncológica Médica",
+    "activa": true
+  },
+  {
+    "especialidadId": 16,
+    "nombreEspecialidad": "Nefrología",
+    "activa": true
+  },
+  {
+    "especialidadId": 17,
+    "nombreEspecialidad": "Reumatología",
+    "activa": false
+  },
+  {
+    "especialidadId": 18,
+    "nombreEspecialidad": "Infectología",
+    "activa": true
+  },
+  {
+    "especialidadId": 19,
+    "nombreEspecialidad": "Hematología",
+    "activa": true
+  },
+  {
+    "especialidadId": 20,
+    "nombreEspecialidad": "Alergia e Inmunología",
+    "activa": true
+  }
+]

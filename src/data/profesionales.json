@@ -1,0 +1,182 @@
+[
+  {
+    "medicoId": 1,
+    "nombre": "Dr. Alejandro Gómez",
+    "especialidad": "Cardiología",
+    "activo": true
+  },
+  {
+    "medicoId": 2,
+    "nombre": "Dra. María Laura Fernández",
+    "especialidad": "Pediatría",
+    "activo": true
+  },
+  {
+    "medicoId": 3,
+    "nombre": "Dr. Carlos Rodríguez",
+    "especialidad": "Dermatología",
+    "activo": true
+  },
+  {
+    "medicoId": 4,
+    "nombre": "Dra. Sofía Martínez",
+    "especialidad": "Traumatología",
+    "activo": false
+  },
+  {
+    "medicoId": 5,
+    "nombre": "Dr. Juan Pablo López",
+    "especialidad": "Ginecología y Obstetricia",
+    "activo": true
+  },
+  {
+    "medicoId": 6,
+    "nombre": "Dra. Ana Clara Silva",
+    "especialidad": "Neurología",
+    "activo": true
+  },
+  {
+    "medicoId": 7,
+    "nombre": "Dr. Ricardo Pérez",
+    "especialidad": "Oftalmología",
+    "activo": false
+  },
+  {
+    "medicoId": 8,
+    "nombre": "Dra. Elena Rossi",
+    "especialidad": "Clínica Médica",
+    "activo": true
+  },
+  {
+    "medicoId": 9,
+    "nombre": "Dr. Fernando Morales",
+    "especialidad": "Psiquiatría",
+    "activo": true
+  },
+  {
+    "medicoId": 10,
+    "nombre": "Dra. Gabriela Castro",
+    "especialidad": "Endocrinología",
+    "activo": true
+  },
+  {
+    "medicoId": 11,
+    "nombre": "Dr. Hugo Sánchez",
+    "especialidad": "Otorrinolaringología",
+    "activo": true
+  },
+  {
+    "medicoId": 12,
+    "nombre": "Dra. Patricia Díaz",
+    "especialidad": "Urología",
+    "activo": true
+  },
+  {
+    "medicoId": 13,
+    "nombre": "Dr. Diego Torres",
+    "especialidad": "Gastroenterología",
+    "activo": false
+  },
+  {
+    "medicoId": 14,
+    "nombre": "Dra. Natalia Benítez",
+    "especialidad": "Neumonología",
+    "activo": true
+  },
+  {
+    "medicoId": 15,
+    "nombre": "Dr. Manuel Romero",
+    "especialidad": "Oncológica Médica",
+    "activo": true
+  },
+  {
+    "medicoId": 16,
+    "nombre": "Dra. Cecilia Flores",
+    "especialidad": "Nefrología",
+    "activo": true
+  },
+  {
+    "medicoId": 17,
+    "nombre": "Dr. Jorge Acosta",
+    "especialidad": "Reumatología",
+    "activo": false
+  },
+  {
+    "medicoId": 18,
+    "nombre": "Dra. Valeria Medina",
+    "especialidad": "Infectología",
+    "activo": true
+  },
+  {
+    "medicoId": 19,
+    "nombre": "Dr. Andrés Herrera",
+    "especialidad": "Hematología",
+    "activo": true
+  },
+  {
+    "medicoId": 20,
+    "nombre": "Dra. Claudia Domínguez",
+    "especialidad": "Alergia e Inmunología",
+    "activo": true
+  },
+  {
+    "medicoId": 21,
+    "nombre": "Dr. Gabriel Suárez",
+    "especialidad": "Cardiología",
+    "activo": true
+  },
+  {
+    "medicoId": 22,
+    "nombre": "Dra. Florencia Peralta",
+    "especialidad": "Pediatría",
+    "activo": true
+  },
+  {
+    "medicoId": 23,
+    "nombre": "Dr. Lucas Giménez",
+    "especialidad": "Clínica Médica",
+    "activo": true
+  },
+  {
+    "medicoId": 24,
+    "nombre": "Dra. Mariana Ortiz",
+    "especialidad": "Ginecología y Obstetricia",
+    "activo": true
+  },
+  {
+    "medicoId": 25,
+    "nombre": "Dr. Tomás Núñez",
+    "especialidad": "Traumatología",
+    "activo": true
+  },
+  {
+    "medicoId": 26,
+    "nombre": "Dra. Paula Rizzo",
+    "especialidad": "Dermatología",
+    "activo": true
+  },
+  {
+    "medicoId": 27,
+    "nombre": "Dr. Santiago Cabrera",
+    "especialidad": "Gastroenterología",
+    "activo": true
+  },
+  {
+    "medicoId": 28,
+    "nombre": "Dra. Verónica Ríos",
+    "especialidad": "Neurología",
+    "activo": true
+  },
+  {
+    "medicoId": 29,
+    "nombre": "Dr. Javier Delgado",
+    "especialidad": "Otorrinolaringología",
+    "activo": false
+  },
+  {
+    "medicoId": 30,
+    "nombre": "Dra. Bettina Franco",
+    "especialidad": "Endocrinología",
+    "activo": true
+  }
+]
