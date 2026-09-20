@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/especialidades
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nombreEspecialidad\": \"Dermatología\",\r
+
+    \  \"activa\": true\r
+
+    }"
+order: 3780403431495719

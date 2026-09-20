@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:3000/profesionales
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nombre\": \"Dr. Carlos Gómez\",\r
+
+    \  \"especialidad\": \"Pediatría\",\r
+
+    \  \"activo\": true\r
+
+    }"
+order: 2719889645588422

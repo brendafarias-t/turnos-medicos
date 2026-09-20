@@ -21,6 +21,7 @@ app.get("/", (req: Request, rest: Response)=> {
 // GET /especialidades - Obtener el listado completo
 app.get('/especialidades', async (req: Request, res: Response) => {
   try {
+    console.table(arrayEspecialidades);
     res.status(200)
        .json(arrayEspecialidades)
     // Lógica para obtener especialidades
@@ -82,10 +83,12 @@ app.delete('/especialidades/:id', async (req: Request, res: Response) => {
     const especialidadId: number = Number(req.params.id as string)
     const indice: number = arrayEspecialidades.findIndex((esp: any)=> esp.especialidadId === especialidadId)
 
-    if (indice < -1) {
-        arrayEspecialidades(indice).activa = false
+    if (indice > -1) {
+        arrayEspecialidades[indice].activa = false
         res.status(204)
-           .json({})
+           .send()
+    }else{
+      res.status(404).json({error: 'Especialidad no encontrada'})
     }
     // Lógica para el borrado lógico de la especialidad
   } catch (error) {
@@ -100,7 +103,7 @@ app.delete('/especialidades/:id', async (req: Request, res: Response) => {
 // GET /profesionales - Obtener el listado completo
 app.get('/profesionales', async (req: Request, res: Response) => {
   try {
-    const profesionalesFiltrados: [] = arrayProfesionales.filter((prof: any)=> prof.avtivo === true)
+    const profesionalesFiltrados: [] = arrayProfesionales.filter((prof: any)=> prof.activo === true)
     
     res.status(200)
        .json(profesionalesFiltrados)
@@ -115,10 +118,10 @@ app.get('/profesionales', async (req: Request, res: Response) => {
 app.get('/profesionales/:id', async (req: Request, res: Response) => {
   try {
     const profesionalId = req.params.id
-    const profesionalSeleccionado = arrayProfesionales.find((prof: any)=> prof.profesionalId === Number(profesionalId))
+    const profesionalSeleccionado = arrayProfesionales.find((prof: any)=> prof.medicoId === Number(profesionalId))
     if (profesionalSeleccionado) {
         res.status(200)
-           .json(arrayProfesionales)
+           .json(profesionalSeleccionado)
     }else{
         throw new Error('Error al buscar un profesional médico')
     }
@@ -152,9 +155,9 @@ app.post('/profesionales', async (req: Request, res: Response) => {
 // PUT /profesionales/:id - Modificar datos completos de un profesional
 app.put('/profesionales/:id', async (req: Request, res: Response) => {
   try {
-    const profesionalId = req.params.profesionalId
+    const profesionalId = req.params.id
     const {nombre, especialidad, activo} = req.body
-    const indice = arrayProfesionales.findIndex((prof: any)=> prof.profesionalId === Number(profesionalId))
+    const indice = arrayProfesionales.findIndex((prof: any)=> prof.medicoId === Number(profesionalId))
     if (indice > -1) {
         arrayProfesionales[indice].nombre = nombre
         arrayProfesionales[indice].especialidad = especialidad
@@ -176,8 +179,8 @@ app.put('/profesionales/:id', async (req: Request, res: Response) => {
 // DELETE /profesionales/:id - Borrado lógico (activo = false)
 app.delete('/profesionales/:id', async (req: Request, res: Response) => {
   try {
-    const profesionalId = req.params.profesionalId
-    const indice = arrayProfesionales.findIndex((prof: any)=> prof.profesionalId === Number(profesionalId))
+    const profesionalId = req.params.id
+    const indice = arrayProfesionales.findIndex((prof: any)=> prof.medicoId === Number(profesionalId))
      if (indice > -1) {
         arrayProfesionales[indice].activo = false
         res.status(204)
@@ -203,4 +206,7 @@ app.use((req: Request, res: Response) => {
     } catch (error) {
         res.status(500).json({error: 'Error interno del servidor'});
     }
+})
+app.listen(PORT, () => {
+    console.log(`Servidor escuchando en http://localhost:${PORT}`)
 })

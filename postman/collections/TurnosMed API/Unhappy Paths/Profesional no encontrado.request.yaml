@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/profesionales/9999
+method: GET
+order: 2097888646088041

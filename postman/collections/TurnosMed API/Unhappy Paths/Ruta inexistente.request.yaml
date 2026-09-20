@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/ruta-que-no-existe
+method: GET
+order: 1789866149328

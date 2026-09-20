@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:3000/profesionales/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"nombre\": \"Dr. Carlos Gómez Modificado\",\r
+
+    \  \"especialidad\": \"Cardiología\",\r
+
+    \  \"activo\": true\r
+
+    }"
+order: 3433736882744869
