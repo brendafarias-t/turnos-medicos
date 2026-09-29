@@ -1,0 +1,9 @@
+{
+  "turnoId": 5001,
+  "fecha": "2026-10-05",
+  "hora": "09:30",
+  "especialidad": "Cardiología",
+  "profesional": "Dr. Alejandro Gómez",
+  "nombrePaciente": "María Sol López",
+  "estadoTurno": "registrado"
+}

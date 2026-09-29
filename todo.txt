@@ -1,0 +1,10 @@
+Lista de tareas api3:
+declarar todas las funciones de endpoints como asincrónicas
+agregar return en cada response
+validar bloques try-catch en cada funcion de endpoint
+controlar errores usando throw new Error ()
+variable de codigo de estado global 'statusCode'
+modificar los endpoints de cada entidad integrando cada función en un controlador de entidades
+pruebas con Postman
+     -pruebas efectivas
+     -pruebas forzadas al error

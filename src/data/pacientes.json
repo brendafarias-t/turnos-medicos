@@ -1,0 +1,9 @@
+{
+  "pacienteId": 101,
+  "nombreCompleto": "María Sol López",
+  "documento": "12345678",
+  "fechaNacimiento": "1990-05-12",
+  "email": "maria.lopez@email.com",
+  "telefono": "+5493512345678",
+  "coberturaSalud": "Obra Social de Clínicas y Sanatorios"
+}
